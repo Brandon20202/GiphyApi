@@ -43,7 +43,7 @@ $("#submit-button").on("click", function(event) {
 
 $(document.body).on("click", ".animal-button", function() {
     var animal = $(this).attr("data-animal");
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=lTYJWbbedHsJivEp3AMK309oTOQsya4N";
+    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=YogKRxSHFjubh94X8qhbGMKw4YeLgAuC";
 
     $.ajax({
         url: queryURL,
